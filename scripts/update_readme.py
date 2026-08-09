@@ -1,7 +1,12 @@
+```python
 import os
 import requests
 from datetime import datetime
 
+
+# ============================================================
+# SETTINGS
+# ============================================================
 
 USERNAME = os.environ["GITHUB_USERNAME"]
 
@@ -10,10 +15,16 @@ README_FILE = "README.md"
 START_MARKER = "<!-- REPOSITORIES:START -->"
 END_MARKER = "<!-- REPOSITORIES:END -->"
 
+# Number of repositories to display
 MAX_REPOSITORIES = 6
 
 
+# ============================================================
+# GITHUB API
+# ============================================================
+
 def get_repositories():
+
     url = f"https://api.github.com/users/{USERNAME}/repos"
 
     params = {
@@ -22,12 +33,23 @@ def get_repositories():
         "direction": "desc"
     }
 
-    response = requests.get(url, params=params, timeout=30)
+    headers = {
+        "Accept": "application/vnd.github+json"
+    }
+
+    response = requests.get(
+        url,
+        params=params,
+        headers=headers,
+        timeout=30
+    )
+
     response.raise_for_status()
 
     repositories = response.json()
 
-    return [
+    # Remove forks and archived repositories
+    repositories = [
         repo
         for repo in repositories
         if not repo["fork"]
@@ -35,11 +57,26 @@ def get_repositories():
         and not repo["private"]
     ]
 
+    return repositories
+
+
+# ============================================================
+# LANGUAGES
+# ============================================================
 
 def get_languages(repo):
+
     url = repo["languages_url"]
 
-    response = requests.get(url, timeout=30)
+    headers = {
+        "Accept": "application/vnd.github+json"
+    }
+
+    response = requests.get(
+        url,
+        headers=headers,
+        timeout=30
+    )
 
     if response.status_code != 200:
         return []
@@ -61,30 +98,61 @@ def get_languages(repo):
 
         percentage = (value / total) * 100
 
+        # Only show languages >= 5%
         if percentage >= 5:
-            result.append(language)
+
+            result.append({
+                "name": language,
+                "percentage": round(percentage)
+            })
 
     return result[:4]
 
 
-def create_repository_block(repo):
+# ============================================================
+# REPOSITORY CARD
+# ============================================================
+
+def create_repository_card(repo):
+
     name = repo["name"]
+
     description = repo["description"] or "No description available."
 
+    # Limit description length
     if len(description) > 100:
         description = description[:97] + "..."
 
     languages = get_languages(repo)
 
-    language_text = ""
+    # --------------------------------------------------------
+    # Languages
+    # --------------------------------------------------------
+
+    language_html = ""
 
     if languages:
-        language_text = " · ".join(
-            f"`{language}`"
-            for language in languages
-        )
+
+        language_items = []
+
+        for language in languages:
+
+            language_items.append(
+                f'<code>{language["name"]}</code>'
+            )
+
+        language_html = " · ".join(language_items)
+
+    else:
+
+        language_html = "<code>Other</code>"
+
+    # --------------------------------------------------------
+    # Repository information
+    # --------------------------------------------------------
 
     stars = repo["stargazers_count"]
+
     forks = repo["forks_count"]
 
     updated = datetime.fromisoformat(
@@ -93,59 +161,154 @@ def create_repository_block(repo):
 
     updated_text = updated.strftime("%Y-%m-%d")
 
-    return f"""
-#### [{name}]({repo["html_url"]})
+    url = repo["html_url"]
 
+    # --------------------------------------------------------
+    # Card
+    # --------------------------------------------------------
+
+    card = f"""
+<td width="50%" valign="top">
+
+<h3>
+<a href="{url}">🚀 {name}</a>
+</h3>
+
+<p>
 {description}
+</p>
 
-{language_text}
+<p>
+{language_html}
+</p>
 
-⭐ {stars} · 🍴 {forks} · Updated {updated_text}
+<p>
+⭐ {stars} &nbsp; · &nbsp; 🍴 {forks}
+<br>
+<sub>Updated {updated_text}</sub>
+</p>
 
+</td>
+"""
+
+    return card
+
+
+# ============================================================
+# GENERATE REPOSITORIES
+# ============================================================
+
+def generate_repositories():
+
+    repositories = get_repositories()
+
+    # Limit number of repositories
+    repositories = repositories[:MAX_REPOSITORIES]
+
+    rows = []
+
+    # Create 2-column layout
+    for i in range(0, len(repositories), 2):
+
+        first_card = create_repository_card(
+            repositories[i]
+        )
+
+        if i + 1 < len(repositories):
+
+            second_card = create_repository_card(
+                repositories[i + 1]
+            )
+
+        else:
+
+            second_card = '<td width="50%"></td>'
+
+        row = f"""
+<tr>
+
+{first_card}
+
+{second_card}
+
+</tr>
+"""
+
+        rows.append(row)
+
+    repositories_html = "".join(rows)
+
+    return f"""
+<table>
+<tbody>
+
+{repositories_html}
+
+</tbody>
+</table>
 """
 
 
-def generate_repositories():
-    repositories = get_repositories()
-
-    repositories = repositories[:MAX_REPOSITORIES]
-
-    content = "\n"
-
-    for repo in repositories:
-        content += create_repository_block(repo)
-
-    return content
-
+# ============================================================
+# UPDATE README
+# ============================================================
 
 def update_readme():
 
-    with open(README_FILE, "r", encoding="utf-8") as file:
+    # Read README
+    with open(
+        README_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
         readme = file.read()
 
+    # Find markers
     start = readme.find(START_MARKER)
+
     end = readme.find(END_MARKER)
 
     if start == -1 or end == -1:
+
         raise RuntimeError(
             "Repository markers were not found in README.md"
         )
 
-    start_content = start + len(START_MARKER)
-
+    # Generate repository section
     repositories = generate_repositories()
 
+    # Position after START marker
+    content_start = start + len(START_MARKER)
+
+    # Create new README
     new_readme = (
-        readme[:start_content]
+        readme[:content_start]
+        + "\n"
         + repositories
+        + "\n"
         + readme[end:]
     )
 
-    with open(README_FILE, "w", encoding="utf-8") as file:
+    # Save README
+    with open(
+        README_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
         file.write(new_readme)
 
-    print("README updated successfully.")
+    print(
+        f"README updated successfully for @{USERNAME}"
+    )
 
+
+# ============================================================
+# MAIN
+# ============================================================
 
 if __name__ == "__main__":
+
     update_readme()
+```
