@@ -34,6 +34,59 @@
 
 <!-- REPOSITORIES:START -->
 
+#### [eekilinc](https://github.com/eekilinc/eekilinc)
+
+No description available.
+
+`Python`
+
+⭐ 0 · 🍴 0 · Updated 2026-08-09
+
+
+#### [EzanApp](https://github.com/eekilinc/EzanApp)
+
+No description available.
+
+`Dart` · `C++`
+
+⭐ 0 · 🍴 0 · Updated 2026-08-09
+
+
+#### [MyFinans](https://github.com/eekilinc/MyFinans)
+
+No description available.
+
+`TypeScript` · `JavaScript`
+
+⭐ 0 · 🍴 0 · Updated 2026-07-21
+
+
+#### [kozaders](https://github.com/eekilinc/kozaders)
+
+No description available.
+
+`Blade` · `PHP`
+
+⭐ 0 · 🍴 0 · Updated 2026-04-19
+
+
+#### [optikdegerlendirme](https://github.com/eekilinc/optikdegerlendirme)
+
+No description available.
+
+`C#`
+
+⭐ 0 · 🍴 0 · Updated 2026-04-15
+
+
+#### [ocr-capture](https://github.com/eekilinc/ocr-capture)
+
+No description available.
+
+`TypeScript` · `CSS` · `Rust`
+
+⭐ 0 · 🍴 0 · Updated 2026-03-21
+
 <!-- REPOSITORIES:END -->
 
 ---
