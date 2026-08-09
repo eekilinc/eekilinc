@@ -1,4 +1,4 @@
-```python
+
 import os
 import requests
 
@@ -102,7 +102,7 @@ def create_card(repo):
 ⭐ {stars} &nbsp; · &nbsp; 🍴 {forks}
 
 </td>
-"""
+
 
 
 def generate_repository_section():
@@ -183,4 +183,4 @@ def update_readme():
 
 if __name__ == "__main__":
     update_readme()
-```
+
