@@ -1,6 +1,6 @@
 <!-- HEADER (Hemen Değiştirilecek Kısım) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091E3A,100:2F80ED&height=180&section=header&text=[Adın%20Soyadın]&fontSize=40&fontAlignY=45&fontColor=fff&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091E3A,100:2F80ED&height=180&section=header&text=[Ekrem%20Eşref%20Kılınç]&fontSize=40&fontAlignY=45&fontColor=fff&animation=twinkling" />
   
   <h3>Yazılım Geliştirici | Mobile & Web & Robotics</h3>
 
