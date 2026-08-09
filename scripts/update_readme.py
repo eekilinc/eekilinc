@@ -2,30 +2,21 @@ import os
 import requests
 
 USERNAME = os.environ["GITHUB_USERNAME"]
-
 README_FILE = "README.md"
-
 START_MARKER = "<!-- REPOSITORIES:START -->"
 END_MARKER = "<!-- REPOSITORIES:END -->"
-
 MAX_REPOSITORIES = 6
 
 
 def get_repositories():
     url = f"https://api.github.com/users/{USERNAME}/repos"
-
     params = {
         "per_page": 100,
         "sort": "updated",
-        "direction": "desc"
+        "direction": "desc",
     }
 
-    response = requests.get(
-        url,
-        params=params,
-        timeout=30
-    )
-
+    response = requests.get(url, params=params, timeout=30)
     response.raise_for_status()
 
     repositories = response.json()
@@ -33,40 +24,34 @@ def get_repositories():
     return [
         repo
         for repo in repositories
-        if not repo["fork"]
-        and not repo["archived"]
-        and not repo["private"]
+        if not repo.get("fork", False)
+        and not repo.get("archived", False)
+        and not repo.get("private", False)
     ]
 
 
 def get_languages(repo):
-    response = requests.get(
-        repo["languages_url"],
-        timeout=30
-    )
+    response = requests.get(repo["languages_url"], timeout=30)
 
     if response.status_code != 200:
         return []
 
     languages = response.json()
 
-    if not languages:
-        return []
-
-    languages = sorted(
-        languages.items(),
-        key=lambda item: item[1],
-        reverse=True
-    )
-
-    return [language for language, _ in languages[:4]]
+    return [
+        language
+        for language, _ in sorted(
+            languages.items(),
+            key=lambda item: item[1],
+            reverse=True,
+        )[:4]
+    ]
 
 
 def create_card(repo):
     name = repo["name"]
     url = repo["html_url"]
-
-    description = repo["description"] or "No description."
+    description = repo.get("description") or "No description."
 
     if len(description) > 100:
         description = description[:97] + "..."
@@ -75,23 +60,27 @@ def create_card(repo):
 
     if languages:
         language_text = " · ".join(
-            f"<code>{language}</code>"
-            for language in languages
+            f"<code>{language}</code>" for language in languages
         )
     else:
-        language_text = "Other"
+        language_text = ""
 
-    stars = repo["stargazers_count"]
-    forks = repo["forks_count"]
+    stars = repo.get("stargazers_count", 0)
+    forks = repo.get("forks_count", 0)
 
     return f"""
 <td width="50%" valign="top">
-<h3><a href="{url}">🚀 {name}</a></h3>
-<p>{description}</p>
-<p>{language_text}</p>
-<p>⭐ {stars} &nbsp; · &nbsp; 🍴 {forks}</p>
-</td>
 
+<h3><a href="{url}">🚀 {name}</a></h3>
+
+<p>{description}</p>
+
+<p>{language_text}</p>
+
+<p>⭐ {stars} &nbsp; · &nbsp; 🍴 {forks}</p>
+
+</td>
+"""
 
 
 def generate_repository_section():
@@ -110,15 +99,13 @@ def generate_repository_section():
         else:
             right = '<td width="50%"></td>'
 
-        rows.append(
-            f"<tr>{left}{right}</tr>"
-        )
+        rows.append(f"<tr>{left}{right}</tr>")
 
     return (
-        "<table>"
-        "<tbody>"
-        + "".join(rows)
-        + "</tbody>"
+        "<table>\n"
+        "<tbody>\n"
+        + "\n".join(rows)
+        + "\n</tbody>\n"
         "</table>"
     )
 
@@ -131,12 +118,16 @@ def update_readme():
     end = readme.find(END_MARKER)
 
     if start == -1 or end == -1:
-        raise Exception(
-            "Repository markers not found in README.md"
+        raise RuntimeError(
+            "REPOSITORIES markers not found in README.md"
+        )
+
+    if end < start:
+        raise RuntimeError(
+            "REPOSITORIES markers are in the wrong order"
         )
 
     start_position = start + len(START_MARKER)
-
     repository_section = generate_repository_section()
 
     new_readme = (
