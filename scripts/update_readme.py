@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 
-USERNAME = os.environ["eekilinc"]
+USERNAME = os.environ["GITHUB_USERNAME"]
 
 README_FILE = "README.md"
 
