@@ -1,4 +1,3 @@
-```python
 import os
 import requests
 from datetime import datetime
@@ -189,7 +188,7 @@ def create_repository_card(repo):
 </p>
 
 </td>
-"""
+
 
     return card
 
@@ -232,7 +231,7 @@ def generate_repositories():
 {second_card}
 
 </tr>
-"""
+
 
         rows.append(row)
 
@@ -246,7 +245,7 @@ def generate_repositories():
 
 </tbody>
 </table>
-"""
+
 
 
 # ============================================================
@@ -311,4 +310,4 @@ def update_readme():
 if __name__ == "__main__":
 
     update_readme()
-```
+
