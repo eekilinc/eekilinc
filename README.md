@@ -33,60 +33,85 @@
 ### Featured Repositories
 
 <!-- REPOSITORIES:START -->
+<table>
+<tbody>
+<tr>
+<td width="50%" valign="top">
 
-#### [eekilinc](https://github.com/eekilinc/eekilinc)
+<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
 
-No description available.
+<p>No description.</p>
 
-`Python`
+<p><code>Python</code></p>
 
-⭐ 0 · 🍴 0 · Updated 2026-08-09
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
+</td>
 
-#### [EzanApp](https://github.com/eekilinc/EzanApp)
+<td width="50%" valign="top">
 
-No description available.
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
 
-`Dart` · `C++`
+<p>No description.</p>
 
-⭐ 0 · 🍴 0 · Updated 2026-08-09
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
-#### [MyFinans](https://github.com/eekilinc/MyFinans)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-No description available.
+<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
 
-`TypeScript` · `JavaScript`
+<p>No description.</p>
 
-⭐ 0 · 🍴 0 · Updated 2026-07-21
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>Java</code> · <code>CSS</code></p>
 
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
-#### [kozaders](https://github.com/eekilinc/kozaders)
+</td>
 
-No description available.
+<td width="50%" valign="top">
 
-`Blade` · `PHP`
+<h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
 
-⭐ 0 · 🍴 0 · Updated 2026-04-19
+<p>No description.</p>
 
+<p><code>Blade</code> · <code>PHP</code> · <code>JavaScript</code> · <code>CSS</code></p>
 
-#### [optikdegerlendirme](https://github.com/eekilinc/optikdegerlendirme)
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
-No description available.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-`C#`
+<h3><a href="https://github.com/eekilinc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
-⭐ 0 · 🍴 0 · Updated 2026-04-15
+<p>No description.</p>
 
+<p><code>C#</code> · <code>Inno Setup</code></p>
 
-#### [ocr-capture](https://github.com/eekilinc/ocr-capture)
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
-No description available.
+</td>
 
-`TypeScript` · `CSS` · `Rust`
+<td width="50%" valign="top">
 
-⭐ 0 · 🍴 0 · Updated 2026-03-21
+<h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
 
+<p>No description.</p>
+
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+</tr>
+</tbody>
+</table>
 <!-- REPOSITORIES:END -->
 
 ---
