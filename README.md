@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/followers/eekilinc?style=flat">
   </a>
   <a href="https://github.com/eekilinc?tab=repositories">
-    <img src="https://img.shields.io/github/stars/KULLANICI_ADIN?style=flat">
+    <img src="https://img.shields.io/github/stars/eekilinc?style=flat">
   </a>
 </p>
 
@@ -39,7 +39,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/KULLANICI_ADIN?tab=repositories">
+  <a href="https://github.com/eekilinc?tab=repositories">
     View all repositories →
   </a>
 </p>
