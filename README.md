@@ -4,9 +4,9 @@
 
 **Software Developer · Educator · Researcher**
 
-[![GitHub Followers](https://img.shields.io/github/followers/xxx?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/xxx)
-[![GitHub Stars](https://img.shields.io/github/stars/xxx?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/xxx?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=xxx&style=for-the-badge&color=0e75b6&label=ZİYARETÇİ)](https://github.com/xxx)
+[![GitHub Followers](https://img.shields.io/github/followers/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc)
+[![GitHub Stars](https://img.shields.io/github/stars/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=eekilinc&style=for-the-badge&color=0e75b6&label=ZİYARETÇİ)](https://github.com/eekilinc)
 
 </div>
 
