@@ -68,19 +68,7 @@
 <table>
 <tbody>
 <tr>
-<td width="33%" valign="top">
-
-<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
-
-<p>No description.</p>
-
-<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
 
@@ -92,7 +80,20 @@
 
 </td>
 
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+
+<p>No description.</p>
+
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
 
@@ -103,9 +104,8 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
-<td width="33%" valign="top">
+
+<td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
 
@@ -116,8 +116,9 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
@@ -129,7 +130,7 @@
 
 </td>
 
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
 
