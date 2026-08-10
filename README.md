@@ -54,14 +54,6 @@
 
 ---
 
-## 🏆 Trophies
-
-<p align="center">
- <img src="https://github-profile-trophy.vercel.app/?username=eekilinc&theme=radical&no-frame=true&row=2&column=4&margin-w=15" />
-</p>
-
----
-
 ## 📂 Featured Repositories
 
 <!-- REPOSITORIES:START -->
