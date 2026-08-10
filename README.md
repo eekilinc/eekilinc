@@ -1,29 +1,29 @@
 <div align="center">
 
-# 👋 Merhaba, Ben Ekrem
+# 👋 Hi, I'm Ekrem
 
 **Software Developer · Educator · Researcher**
 
-[![GitHub Followers](https://img.shields.io/github/followers/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc)
-[![GitHub Stars](https://img.shields.io/github/stars/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=eekilinc&style=for-the-badge&color=0e75b6&label=ZİYARETÇİ)](https://github.com/eekilinc)
+[![GitHub Followers](https://img.shields.io/github/followers/eekilnc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilnc)
+[![GitHub Stars](https://img.shields.io/github/stars/eekilnc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilnc?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=eekilnc&style=for-the-badge&color=0e75b6&label=VISITORS)](https://github.com/eekilnc)
 
 </div>
 
 ---
 
-## 🧑‍💻 Hakkımda
+## 🧑‍💻 About Me
 
-| 🚀 | **Yaptıklarım** |
+| 🚀 | **What I Do** |
 |---|---|
-| 💻 | Yazılım Geliştirme |
-| 🤖 | Yapay Zeka & Görüntü İşleme |
-| 🔬 | Araştırma & Eğitim |
-| 🔌 | Gömülü Sistemler & Robotik |
+| 💻 | Software Development |
+| 🤖 | AI & Computer Vision |
+| 🔬 | Research & Education |
+| 🔌 | Embedded Systems & Robotics |
 
 ---
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,php,laravel,js,html,css,tensorflow,opencv,arduino,git,github,linux" />
@@ -31,28 +31,28 @@
 
 ---
 
-## 📊 GitHub İstatistiklerim
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xxx&show_icons=true&theme=radical&count_private=true&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxx&layout=compact&theme=radical&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=eekilnc&show_icons=true&theme=radical&count_private=true&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eekilnc&layout=compact&theme=radical&hide_border=true" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xxx&theme=radical&hide_border=true" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eekilnc&theme=radical&hide_border=true" width="60%" />
 </p>
 
 ---
 
-## 📂 Öne Çıkan Projeler
+## 📂 Featured Repositories
 
 <!-- REPOSITORIES:START -->
 <table>
 <tbody>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-<h3><a href="https://github.com/xxx/EzanApp">🚀 EzanApp</a></h3>
+<h3><a href="https://github.com/eekilnc/EzanApp">🚀 EzanApp</a></h3>
 
 <p>No description.</p>
 
@@ -62,9 +62,9 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-<h3><a href="https://github.com/xxx/xxx">🚀 xxx</a></h3>
+<h3><a href="https://github.com/eekilnc/eekilnc">🚀 eekilnc</a></h3>
 
 <p>No description.</p>
 
@@ -73,11 +73,10 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
-<h3><a href="https://github.com/xxx/MyFinans">🚀 MyFinans</a></h3>
+<td width="33%" valign="top">
+
+<h3><a href="https://github.com/eekilnc/MyFinans">🚀 MyFinans</a></h3>
 
 <p>No description.</p>
 
@@ -86,10 +85,11 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/xxx/kozaders">🚀 kozaders</a></h3>
+<h3><a href="https://github.com/eekilnc/kozaders">🚀 kozaders</a></h3>
 
 <p>No description.</p>
 
@@ -98,11 +98,10 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
-<h3><a href="https://github.com/xxx/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
+<td width="33%" valign="top">
+
+<h3><a href="https://github.com/eekilnc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
 <p>No description.</p>
 
@@ -112,9 +111,9 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-<h3><a href="https://github.com/xxx/ocr-capture">🚀 ocr-capture</a></h3>
+<h3><a href="https://github.com/eekilnc/ocr-capture">🚀 ocr-capture</a></h3>
 
 <p>No description.</p>
 
@@ -131,5 +130,5 @@
 ---
 
 <div align="center">
-  <sub>💡 Açık kaynak projeleri desteklemeyi ve bilgi paylaşmayı seviyorum.</sub>
+  <sub>💡 I love supporting open source and sharing knowledge.</sub>
 </div>
