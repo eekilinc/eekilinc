@@ -2,7 +2,9 @@
 
 # 👋 Hi, I'm Ekrem
 
-**Software Developer · Educator · Researcher**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0E75B6&center=true&vCenter=true&width=435&lines=Software+Developer;AI+%26+Computer+Vision;Educator+%26+Researcher" />
+</p>
 
 [![GitHub Followers](https://img.shields.io/github/followers/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc)
 [![GitHub Stars](https://img.shields.io/github/stars/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc?tab=repositories)
@@ -23,6 +25,15 @@
 
 ---
 
+## 🎯 Currently
+
+- 🔭 Working on **AI-powered projects**
+- 🌱 Learning **Deep Learning & Robotics**
+- 💬 Ask me about **Python, Laravel, Computer Vision**
+- ⚡ Fun fact: I love building things that think
+
+---
+
 ## 🛠️ Technologies
 
 <p align="center">
@@ -33,10 +44,20 @@
 
 ## 📊 GitHub Stats
 
-
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=eekilinc&theme=radical&hide_border=true" width="60%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=eekilinc&theme=react-dark&hide_border=true" width="100%" />
+</p>
+
+---
+
+## 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=eekilinc&theme=radical&no-frame=true&row=2&column=4&margin-w=15" />
 </p>
 
 ---
@@ -123,6 +144,14 @@
 </tbody>
 </table>
 <!-- REPOSITORIES:END -->
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/output/snake.svg" alt="Snake animation" />
+</p>
 
 ---
 
