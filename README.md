@@ -4,9 +4,9 @@
 
 **Software Developer · Educator · Researcher**
 
-[![GitHub Followers](https://img.shields.io/github/followers/eekilnc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilnc)
-[![GitHub Stars](https://img.shields.io/github/stars/eekilnc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilnc?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=eekilnc&style=for-the-badge&color=0e75b6&label=VISITORS)](https://github.com/eekilnc)
+[![GitHub Followers](https://img.shields.io/github/followers/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc)
+[![GitHub Stars](https://img.shields.io/github/stars/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=eekilinc&style=for-the-badge&color=0e75b6&label=VISITORS)](https://github.com/eekilinc)
 
 </div>
 
@@ -34,12 +34,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eekilnc&show_icons=true&theme=radical&count_private=true&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eekilnc&layout=compact&theme=radical&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=eekilinc&show_icons=true&theme=radical&count_private=true&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eekilinc&layout=compact&theme=radical&hide_border=true" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eekilnc&theme=radical&hide_border=true" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eekilinc&theme=radical&hide_border=true" width="60%" />
 </p>
 
 ---
@@ -52,7 +52,7 @@
 <tr>
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/EzanApp">🚀 EzanApp</a></h3>
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
 
 <p>No description.</p>
 
@@ -64,7 +64,7 @@
 
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/eekilnc">🚀 eekilnc</a></h3>
+<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
 
 <p>No description.</p>
 
@@ -76,7 +76,7 @@
 
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/MyFinans">🚀 MyFinans</a></h3>
+<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
 
 <p>No description.</p>
 
@@ -89,7 +89,7 @@
 <tr>
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/kozaders">🚀 kozaders</a></h3>
+<h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
 
 <p>No description.</p>
 
@@ -101,7 +101,7 @@
 
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
+<h3><a href="https://github.com/eekilinc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
 <p>No description.</p>
 
@@ -113,7 +113,7 @@
 
 <td width="33%" valign="top">
 
-<h3><a href="https://github.com/eekilnc/ocr-capture">🚀 ocr-capture</a></h3>
+<h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
 
 <p>No description.</p>
 
