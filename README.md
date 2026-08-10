@@ -12,7 +12,10 @@
 
 </div>
 
----
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="300" />
+</p>
+
 
 ## 🧑‍💻 About Me
 
@@ -51,8 +54,8 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=eekilinc&theme=react-dark&hide_border=true" width="100%" />
 </p>
-
 ---
+
 
 ## 📂 Featured Repositories
 
