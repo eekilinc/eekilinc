@@ -65,11 +65,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
 
 <p>No description.</p>
 
-<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+<p><code>Python</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -77,11 +77,11 @@
 
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
 
 <p>No description.</p>
 
-<p><code>Python</code></p>
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
