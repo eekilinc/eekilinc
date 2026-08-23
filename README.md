@@ -51,12 +51,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=eekilinc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=eekilinc&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
+  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats.svg" alt="Ekrem's GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages.svg" alt="Most Used Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=eekilinc&theme=tokyonight&hide_border=true&bg_color=transparent" width="100%" />
+  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/contributions.svg" alt="Contribution Graph" width="100%" />
 </p>
 
 ---

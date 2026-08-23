@@ -28,11 +28,19 @@ jobs:
         run: |
           pip install requests
 
-      - name: Update README
+      - name: Update README repositories section
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: |
           python scripts/update_readme.py
+
+      - name: Generate stats assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME_GH: ${{ github.repository_owner }}
+          OUTPUT_DIR: assets
+        run: |
+          python scripts/generate_stats.py
 
       - name: Commit changes
         run: |
@@ -40,13 +48,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md
+          git add README.md assets
 
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
 
-          git commit -m "chore: update repositories"
+          git commit -m "chore: update profile stats"
 
           git push
