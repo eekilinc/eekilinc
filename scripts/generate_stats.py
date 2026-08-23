@@ -20,12 +20,29 @@ LANG_COLORS = {
 }
 FALLBACK_COLORS = ["#8b5cf6", "#0ea5e9", "#10b981", "#f59e0b", "#ef4444", "#ec4899"]
 
-BG = "#1a1b27"
-BORDER = "#31344a"
-TEXT = "#c0caf5"
-MUTED = "#a9b1d6"
-ACCENT = "#70a5fd"
+THEMES = {
+    "dark": {
+        "BG": "#1a1b27", "BORDER": "#31344a", "TEXT": "#c0caf5",
+        "MUTED": "#a9b1d6", "ACCENT": "#70a5fd",
+        "SCALE": ["#21224a", "#312e81", "#5b32b4", "#7c3aed", "#a855f7"],
+    },
+    "light": {
+        "BG": "#ffffff", "BORDER": "#d0d7de", "TEXT": "#24292f",
+        "MUTED": "#57606a", "ACCENT": "#0969da",
+        "SCALE": ["#eaeef6", "#c4b5fd", "#a78bfa", "#8b5cf6", "#7c3aed"],
+    },
+}
 FONT = "'Segoe UI',Helvetica,Arial,sans-serif"
+
+for _k, _v in THEMES["dark"].items():
+    globals()[_k] = _v
+SCALE = THEMES["dark"]["SCALE"]
+
+
+def set_theme(name):
+    global BG, BORDER, TEXT, MUTED, ACCENT, SCALE
+    for k, v in THEMES[name].items():
+        globals()[k] = v
 
 
 def http_json(url, headers=None, data=None):
@@ -223,7 +240,7 @@ def svg_contributions(s):
     width = pad_l + len(weeks) * (cell + gap) + 14
     height = pad_t + 7 * (cell + gap) + 16
     max_count = max((d["contributionCount"] for w in weeks for d in w), default=1) or 1
-    scale = ["#21224a", "#312e81", "#5b32b4", "#7c3aed", "#a855f7"]
+    scale = SCALE
     month_labels = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
     rects = []
     labels = []
@@ -266,16 +283,18 @@ def svg_contributions(s):
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     s = collect_stats()
-    outputs = {
-        "stats.svg": svg_stats(s),
-        "languages.svg": svg_langs(s),
-        "contributions.svg": svg_contributions(s),
-    }
-    for name, content in outputs.items():
-        path = os.path.join(OUTPUT_DIR, name)
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"wrote {path} ({len(content)} bytes)")
+    for theme, suffix in (("dark", ""), ("light", "-light")):
+        set_theme(theme)
+        outputs = {
+            f"stats{suffix}.svg": svg_stats(s),
+            f"languages{suffix}.svg": svg_langs(s),
+            f"contributions{suffix}.svg": svg_contributions(s),
+        }
+        for name, content in outputs.items():
+            path = os.path.join(OUTPUT_DIR, name)
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"wrote {path} ({len(content)} bytes)")
 
 
 if __name__ == "__main__":

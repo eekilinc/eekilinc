@@ -51,12 +51,21 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats.svg" alt="Ekrem's GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages.svg" alt="Most Used Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats.svg" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats-light.svg" alt="Ekrem's GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages.svg" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages-light.svg" alt="Most Used Languages" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/contributions.svg" alt="Contribution Graph" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/contributions.svg" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/contributions-light.svg" alt="Contribution Graph" width="100%" />
+  </picture>
 </p>
 
 ---
