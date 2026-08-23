@@ -27,6 +27,7 @@ def get_repositories():
         if not repo.get("fork", False)
         and not repo.get("archived", False)
         and not repo.get("private", False)
+        and repo["name"] != USERNAME
     ]
 
 
