@@ -14,10 +14,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         with:
-          github_user_name: xxx
+          github_user_name: eekilinc
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg
+            dist/snake-light.svg?color_snake=#7c3aed&color_dots=#ebedf0,#d8b4fe,#c084fc,#a855f7,#7c3aed
+            dist/snake-dark.svg?color_snake=#a855f7&color_dots=#1e2136,#312e81,#5b32b4,#7c3aed,#a855f7
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
