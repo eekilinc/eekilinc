@@ -73,34 +73,9 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
-
-<p>No description.</p>
-
-<p><code>Python</code></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
-
-<p>No description.</p>
-
-<p></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
 
-<p>No description.</p>
+<p>🚀 %100 çevrimdışı PDF düzenleme paketi — Tauri 2 (Rust) + React 19, OCR, Word/Excel dışa aktarma</p>
 
 <p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
@@ -110,24 +85,24 @@
 
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
 
-<p>No description.</p>
+<p>💰 React + Capacitor mobil/web arayüzü ve Node.js backend ile kişisel finans takibi</p>
 
-<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>Java</code> · <code>CSS</code></p>
 
-<p>⭐ 1 &nbsp; · &nbsp; 🍴 0</p>
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
+<h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
 
-<p>No description.</p>
+<p>🎓 Laravel + Tailwind CSS ile geliştirilen Koza Ders eğitim platformu</p>
 
-<p><code>TypeScript</code> · <code>JavaScript</code> · <code>Java</code> · <code>CSS</code></p>
+<p><code>Blade</code> · <code>PHP</code> · <code>JavaScript</code> · <code>CSS</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -135,11 +110,36 @@
 
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
+<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
+
+<p>⚡ Sürükle-bırak algoritma & akış şeması stüdyosu: canlı yorumlayıcı + 6 dile kod üretimi</p>
+
+<p><code>JavaScript</code> · <code>HTML</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+
+<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
+
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+
+<p>⭐ 1 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/eekilinc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
 <p>No description.</p>
 
-<p><code>Blade</code> · <code>PHP</code> · <code>JavaScript</code> · <code>CSS</code></p>
+<p><code>C#</code> · <code>Inno Setup</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
