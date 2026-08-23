@@ -65,11 +65,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
+<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
 
 <p>No description.</p>
 
-<p><code>JavaScript</code> · <code>HTML</code></p>
+<p><code>Python</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -77,11 +77,11 @@
 
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
+<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
 
 <p>No description.</p>
 
-<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+<p></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -90,11 +90,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/eekilinc">🚀 eekilinc</a></h3>
+<h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
 
 <p>No description.</p>
 
-<p><code>Python</code></p>
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
