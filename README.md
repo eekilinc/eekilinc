@@ -8,6 +8,7 @@
 
 [![GitHub Followers](https://img.shields.io/github/followers/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc)
 [![GitHub Stars](https://img.shields.io/github/stars/eekilinc?style=for-the-badge&logo=github&color=181717&logoColor=white)](https://github.com/eekilinc?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-eekilinc.github.io-a855f7?style=for-the-badge)](https://eekilinc.github.io)
 [![Profile Views](https://komarev.com/ghpvc/?username=eekilinc&style=for-the-badge&color=a855f7&label=VISITORS)](https://github.com/eekilinc)
 
 </div>
