@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:0e75b6,a855f7&height=200&section=header&text=Hi%2C%20I'm%20Ekrem%20%F0%9F%91%8B&fontSize=45&fontColor=ffffff&animation=fadeIn&desc=Software%20Developer%20%E2%80%A2%20AI%20%26%20Computer%20Vision%20%E2%80%A2%20Educator&descSize=17&descAlignY=68&v=2" width="100%" />
+<img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/header.svg" width="100%" />
 
 <div align="center">
 
@@ -159,4 +159,4 @@
   <sub>💡 I love supporting open source and sharing knowledge.</sub>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:0e75b6,a855f7&height=120&section=footer" width="100%" />
+<img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/footer.svg" width="100%" />
