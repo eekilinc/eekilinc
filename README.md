@@ -79,11 +79,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
+<h3><a href="https://github.com/eekilinc/eekilinc.github.io">🚀 eekilinc.github.io</a></h3>
 
-<p>🚀 %100 çevrimdışı PDF düzenleme paketi — Tauri 2 (Rust) + React 19, OCR, Word/Excel dışa aktarma</p>
+<p>👨‍💻 Ekrem Eşref KILINÇ — Kişisel Portfolyo | Flutter · Web · Masaüstü Geliştirici</p>
 
-<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+<p><code>HTML</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -104,29 +104,16 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/kozaders">🚀 kozaders</a></h3>
+<h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
 
-<p>🎓 Laravel + Tailwind CSS ile geliştirilen Koza Ders eğitim platformu</p>
+<p>🚀 %100 çevrimdışı PDF düzenleme paketi — Tauri 2 (Rust) + React 19, OCR, Word/Excel dışa aktarma</p>
 
-<p><code>Blade</code> · <code>PHP</code> · <code>JavaScript</code> · <code>CSS</code></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
-
-<p>⚡ Sürükle-bırak algoritma & akış şeması stüdyosu: canlı yorumlayıcı + 6 dile kod üretimi</p>
-
-<p><code>JavaScript</code> · <code>HTML</code></p>
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
+
 <td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
@@ -138,12 +125,25 @@
 <p>⭐ 1 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/eekilinc/algoflow">🚀 algoflow</a></h3>
+
+<p>⚡ Sürükle-bırak algoritma & akış şeması stüdyosu: canlı yorumlayıcı + 6 dile kod üretimi</p>
+
+<p><code>JavaScript</code> · <code>HTML</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
 
 <td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/optikdegerlendirme">🚀 optikdegerlendirme</a></h3>
 
-<p>No description.</p>
+<p>📋 Optik form okuma ve sınav değerlendirme için WPF masaüstü uygulaması (OMR)</p>
 
 <p><code>C#</code> · <code>Inno Setup</code></p>
 
