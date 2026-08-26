@@ -79,6 +79,18 @@
 <tr>
 <td width="50%" valign="top">
 
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+
+<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
+
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+
+<td width="50%" valign="top">
+
 <h3><a href="https://github.com/eekilinc/eekilinc.github.io">🚀 eekilinc.github.io</a></h3>
 
 <p>👨‍💻 Ekrem Eşref KILINÇ — Kişisel Portfolyo | Flutter · Web · Masaüstü Geliştirici</p>
@@ -88,7 +100,8 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
@@ -100,8 +113,7 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
+
 <td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/pdfstudio">🚀 pdfstudio</a></h3>
@@ -111,18 +123,6 @@
 <p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
-
-<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
-
-<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
-
-<p>⭐ 1 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
 </tr>
