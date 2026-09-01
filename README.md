@@ -95,7 +95,7 @@
 
 <p>Kotlin ve Jetpack Compose ile Android video/ses indirme yöneticisi. Paralel aktarım, sesli video ...</p>
 
-<p><code>Kotlin</code> · <code>Python</code> · <code>PowerShell</code></p>
+<p><code>C</code> · <code>Kotlin</code> · <code>Python</code> · <code>Shell</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
