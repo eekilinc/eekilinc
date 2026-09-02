@@ -79,11 +79,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/Postaci">🚀 Postaci</a></h3>
+<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
 
-<p>No description.</p>
+<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
 
-<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -104,11 +104,11 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
+<h3><a href="https://github.com/eekilinc/Postaci">🚀 Postaci</a></h3>
 
 <p>No description.</p>
 
-<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
@@ -116,11 +116,11 @@
 
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
+<h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
 
-<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
+<p>No description.</p>
 
-<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
