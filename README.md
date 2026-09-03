@@ -79,6 +79,31 @@
 <tr>
 <td width="50%" valign="top">
 
+<h3><a href="https://github.com/eekilinc/Postaci">🚀 Postaci</a></h3>
+
+<p>No description.</p>
+
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
+
+<p>💰 React + Capacitor mobil/web arayüzü ve Node.js backend ile kişisel finans takibi</p>
+
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>Java</code></p>
+
+<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <h3><a href="https://github.com/eekilinc/EzanApp">🚀 EzanApp</a></h3>
 
 <p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
@@ -104,18 +129,6 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/eekilinc/Postaci">🚀 Postaci</a></h3>
-
-<p>No description.</p>
-
-<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="50%" valign="top">
-
 <h3><a href="https://github.com/eekilinc/ocr-capture">🚀 ocr-capture</a></h3>
 
 <p>No description.</p>
@@ -125,8 +138,7 @@
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
 </td>
-</tr>
-<tr>
+
 <td width="50%" valign="top">
 
 <h3><a href="https://github.com/eekilinc/eekilinc.github.io">🚀 eekilinc.github.io</a></h3>
@@ -134,18 +146,6 @@
 <p>👨‍💻 Ekrem Eşref KILINÇ — Kişisel Portfolyo | Flutter · Web · Masaüstü Geliştirici</p>
 
 <p><code>HTML</code></p>
-
-<p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/eekilinc/MyFinans">🚀 MyFinans</a></h3>
-
-<p>💰 React + Capacitor mobil/web arayüzü ve Node.js backend ile kişisel finans takibi</p>
-
-<p><code>TypeScript</code> · <code>JavaScript</code> · <code>Java</code> · <code>CSS</code></p>
 
 <p>⭐ 0 &nbsp; · &nbsp; 🍴 0</p>
 
