@@ -100,8 +100,13 @@ def create_card(repo):
     name = repo["name"]
     url = repo["html_url"]
     
-    # Use curated description if repo description is empty or missing
-    description = repo.get("description") or REPO_DESCRIPTIONS.get(name, "No description provided.")
+    # Use curated description if repo description is empty, missing, or generic
+    raw_desc = (repo.get("description") or "").strip()
+    if not raw_desc or raw_desc.lower() in ["no description", "no description.", "none", "null"]:
+        description = REPO_DESCRIPTIONS.get(name, "Modern software engineering project.")
+    else:
+        description = raw_desc
+
     if len(description) > 115:
         description = description[:112] + "..."
 
@@ -117,18 +122,26 @@ def create_card(repo):
     stars = repo.get("stargazers_count", 0)
     forks = repo.get("forks_count", 0)
 
-    # Determine badge icon by repo theme
-    icon = "⚡"
-    if "finans" in name.lower():
+    # Intelligent badge icon detection by topic, language, and name
+    search_str = f"{name} {description} {' '.join(languages)}".lower()
+    if any(k in search_str for k in ["finans", "finance", "budget", "money"]):
         icon = "💰"
-    elif "ezan" in name.lower():
+    elif any(k in search_str for k in ["ezan", "prayer", "islamic"]):
         icon = "🕌"
-    elif "ocr" in name.lower() or "ai" in name.lower():
+    elif any(k in search_str for k in ["ocr", "vision", "opencv", "ai", "model", "deep", "tensorflow", "pytorch"]):
         icon = "🤖"
-    elif "indir" in name.lower():
+    elif any(k in search_str for k in ["indir", "download", "media", "stream"]):
         icon = "📥"
-    elif "postaci" in name.lower():
+    elif any(k in search_str for k in ["postaci", "http", "api", "request", "client"]):
         icon = "📮"
+    elif any(k in search_str for k in ["flutter", "kotlin", "android", "compose", "swift", "ios"]):
+        icon = "📱"
+    elif any(k in search_str for k in ["arduino", "robot", "ros", "iot", "sensor", "hardware"]):
+        icon = "🔌"
+    elif any(k in search_str for k in ["portfolio", "github.io", "web", "react"]):
+        icon = "🌐"
+    else:
+        icon = "⚡"
 
     return f"""<td width="50%" valign="top">
 

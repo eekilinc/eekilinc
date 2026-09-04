@@ -34,6 +34,11 @@
       "⚡ High-Performance Screen Capture & OCR Architecture (Rust, TypeScript)",
       "🔌 Embedded Systems, Robotics & IoT (C/C++, Arduino, ROS)"
     ],
+    "currently": {
+      "building": "Next-Gen Edge AI & Android/Flutter Ecosystems",
+      "researching": "Deep Learning & Robotics Vision",
+      "open_to": "Collaborations on AI, Mobile & Open-Source Tools"
+    },
     "current_mission": "Building intelligent tools that bridge artificial intelligence with intuitive user experiences.",
     "philosophy": "Continuous learning, clean architecture, and practical innovation."
   }
@@ -132,7 +137,7 @@
 
 <p>🔍 High-performance screen OCR text extractor tool built with TypeScript, Rust & Web technologies.</p>
 
-<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+<p><code>TypeScript</code></p>
 
 <p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/ocr-capture"><b>Explore Code →</b></a></p>
 
@@ -145,14 +150,14 @@
 
 <p>📮 Fast & lightweight API request tester and HTTP client utility built with TypeScript.</p>
 
-<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
+<p><code>TypeScript</code></p>
 
 <p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/eekilinc/eekilinc.github.io">⚡ <b>eekilinc.github.io</b></a></h4>
+<h4><a href="https://github.com/eekilinc/eekilinc.github.io">📱 <b>eekilinc.github.io</b></a></h4>
 
 <p>👨‍💻 Ekrem Eşref KILINÇ — Kişisel Portfolyo | Flutter · Web · Masaüstü Geliştirici</p>
 
@@ -215,6 +220,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ekrem_Eşref_Kılınç-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=090d16)](https://linkedin.com/in/eekilinc)
 [![GitHub](https://img.shields.io/badge/GitHub-@eekilinc-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=090d16)](https://github.com/eekilinc)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=090d16)](https://eekilinc.github.io)
+
+<p align="center">
+  <sub>💡 <b>Terminal Quick Connect:</b> <code>curl -s https://eekilinc.github.io/card.txt</code></sub>
+</p>
 
 </div>
 
