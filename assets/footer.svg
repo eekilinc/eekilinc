@@ -1,9 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0e75b6"/>
-      <stop offset="1" stop-color="#a855f7"/>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#180e29"/>
+    </linearGradient>
+
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
   </defs>
-  <path d="M0,40 C160,8 330,4 490,24 C650,44 810,56 970,42 C1050,35 1130,26 1200,12 L1200,120 L0,120 Z" fill="url(#g)"/>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace; }
+  </style>
+
+  <!-- Card Body -->
+  <rect x="4" y="4" width="1192" height="82" rx="12" fill="url(#footerBg)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Top Accent Line -->
+  <rect x="4" y="4" width="1192" height="3" fill="url(#footerLine)" rx="1.5"/>
+
+  <!-- Status Items -->
+  <g transform="translate(30, 48)">
+    <!-- Item 1: Prompt icon & Status -->
+    <circle cx="0" cy="-4" r="5" fill="#22c55e"/>
+    <text x="14" y="0" class="font-mono" font-size="13" fill="#cbd5e1">
+      <tspan fill="#64748b">STATUS:</tspan> Available for Innovative Ideas &amp; Open Source
+    </text>
+
+    <!-- Item 2: Center terminal motto -->
+    <text x="570" y="0" text-anchor="middle" class="font-mono" font-size="13" fill="#94a3b8">
+      "Talk is cheap. Show me the code." <tspan fill="#a855f7">— Linus Torvalds</tspan>
+    </text>
+
+    <!-- Item 3: Right terminal badge -->
+    <text x="1140" y="0" text-anchor="end" class="font-mono" font-size="13" fill="#38bdf8">
+      ekilinc.github.io <tspan fill="#f43f5e">♥</tspan>
+    </text>
+  </g>
 </svg>

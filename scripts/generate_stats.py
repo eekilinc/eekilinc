@@ -22,9 +22,9 @@ FALLBACK_COLORS = ["#8b5cf6", "#0ea5e9", "#10b981", "#f59e0b", "#ef4444", "#ec48
 
 THEMES = {
     "dark": {
-        "BG": "#1a1b27", "BORDER": "#31344a", "TEXT": "#c0caf5",
-        "MUTED": "#a9b1d6", "ACCENT": "#70a5fd",
-        "SCALE": ["#21224a", "#312e81", "#5b32b4", "#7c3aed", "#a855f7"],
+        "BG": "#090d16", "BORDER": "#334155", "TEXT": "#e2e8f0",
+        "MUTED": "#94a3b8", "ACCENT": "#38bdf8",
+        "SCALE": ["#131b2e", "#1e293b", "#4338ca", "#7c3aed", "#38bdf8"],
     },
     "light": {
         "BG": "#ffffff", "BORDER": "#d0d7de", "TEXT": "#24292f",
@@ -288,8 +288,11 @@ def main():
         outputs = {
             f"stats{suffix}.svg": svg_stats(s),
             f"languages{suffix}.svg": svg_langs(s),
-            f"contributions{suffix}.svg": svg_contributions(s),
         }
+        if s["weeks"]:
+            outputs[f"contributions{suffix}.svg"] = svg_contributions(s)
+        else:
+            print(f"info: skipping contributions{suffix}.svg (requires GITHUB_TOKEN for GraphQL)")
         for name, content in outputs.items():
             path = os.path.join(OUTPUT_DIR, name)
             with open(path, "w", encoding="utf-8") as f:
