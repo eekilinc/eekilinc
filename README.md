@@ -98,13 +98,13 @@
 <tr>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/eekilinc/indirgitsin">📥 <b>indirgitsin</b></a></h4>
+<h4><a href="https://github.com/eekilinc/Indirgitsin">📥 <b>Indirgitsin</b></a></h4>
 
 <p>Kotlin ve Jetpack Compose ile Android video/ses indirme yöneticisi. Paralel aktarım, sesli video birleştirme ve ...</p>
 
 <p><code>C</code> · <code>Kotlin</code> · <code>Python</code> · <code>Shell</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/indirgitsin"><b>Explore Code →</b></a></p>
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Indirgitsin"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -137,7 +137,7 @@
 
 <p>🔍 High-performance screen OCR text extractor tool built with TypeScript, Rust & Web technologies.</p>
 
-<p><code>TypeScript</code></p>
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
 <p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/ocr-capture"><b>Explore Code →</b></a></p>
 
@@ -150,7 +150,7 @@
 
 <p>📮 Fast & lightweight API request tester and HTTP client utility built with TypeScript.</p>
 
-<p><code>TypeScript</code></p>
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
 
 <p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
 
