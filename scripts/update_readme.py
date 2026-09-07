@@ -102,8 +102,9 @@ def create_card(repo):
     
     # Use curated description if repo description is empty, missing, or generic
     raw_desc = (repo.get("description") or "").strip()
+    lower_desc_map = {k.lower(): v for k, v in REPO_DESCRIPTIONS.items()}
     if not raw_desc or raw_desc.lower() in ["no description", "no description.", "none", "null"]:
-        description = REPO_DESCRIPTIONS.get(name, "Modern software engineering project.")
+        description = REPO_DESCRIPTIONS.get(name) or lower_desc_map.get(name.lower(), "Modern software engineering project.")
     else:
         description = raw_desc
 

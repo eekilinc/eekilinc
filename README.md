@@ -27,10 +27,12 @@
   "developer": {
     "name": "Ekrem Eşref Kılınç",
     "role": "Software Developer & AI / Computer Vision Researcher",
+    "affiliation": "Mehmet Akif Ersoy University",
     "location": "Turkey 🇹🇷",
+    "bio": "Passionate software engineer and researcher crafting high-performance mobile applications, edge computer vision models, and intelligent robotic systems.",
     "fields_of_excellence": [
-      "🤖 Computer Vision, Deep Learning & Edge AI",
-      "📱 Native & Cross-Platform Mobile Engineering (Flutter, Jetpack Compose)",
+      "🤖 Computer Vision, Deep Learning & Edge AI (OpenCV, PyTorch, TensorRT)",
+      "📱 Native & Cross-Platform Mobile Engineering (Flutter, Jetpack Compose, Kotlin)",
       "⚡ High-Performance Screen Capture & OCR Architecture (Rust, TypeScript)",
       "🔌 Embedded Systems, Robotics & IoT (C/C++, Arduino, ROS)"
     ],
@@ -44,6 +46,25 @@
   }
 }
 ```
+
+---
+
+### 🏷️ `$ cat topics.tags`
+
+<div align="center">
+
+[![AI & Vision](https://img.shields.io/badge/Topic-Computer_Vision_&_AI-38bdf8?style=flat-square&logo=openai&logoColor=white&labelColor=090d16)](https://github.com/topics/computer-vision)
+[![Deep Learning](https://img.shields.io/badge/Topic-Deep_Learning-a855f7?style=flat-square&logo=pytorch&logoColor=white&labelColor=090d16)](https://github.com/topics/deep-learning)
+[![Mobile Dev](https://img.shields.io/badge/Topic-Mobile_Engineering-ec4899?style=flat-square&logo=flutter&logoColor=white&labelColor=090d16)](https://github.com/topics/flutter)
+[![Android Compose](https://img.shields.io/badge/Topic-Android_Compose-10b981?style=flat-square&logo=android&logoColor=white&labelColor=090d16)](https://github.com/topics/jetpack-compose)
+[![Robotics & IoT](https://img.shields.io/badge/Topic-Robotics_&_Embedded-f59e0b?style=flat-square&logo=arduino&logoColor=white&labelColor=090d16)](https://github.com/topics/embedded-systems)
+[![High Performance](https://img.shields.io/badge/Topic-Rust_&_Performance-ef4444?style=flat-square&logo=rust&logoColor=white&labelColor=090d16)](https://github.com/topics/rust)
+
+<br/>
+
+`#computer-vision` · `#deep-learning` · `#edge-ai` · `#opencv` · `#flutter` · `#android` · `#kotlin` · `#rust` · `#typescript` · `#robotics` · `#embedded-systems` · `#open-source`
+
+</div>
 
 ---
 
