@@ -133,13 +133,13 @@
 </td>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/eekilinc/ocr-capture">🤖 <b>ocr-capture</b></a></h4>
+<h4><a href="https://github.com/eekilinc/Ocr-Capture">🤖 <b>Ocr-Capture</b></a></h4>
 
-<p>🔍 High-performance screen OCR text extractor tool built with TypeScript, Rust & Web technologies.</p>
+<p>Modern software engineering project.</p>
 
 <p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/ocr-capture"><b>Explore Code →</b></a></p>
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
