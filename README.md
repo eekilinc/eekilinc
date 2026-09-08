@@ -156,9 +156,9 @@
 
 <h4><a href="https://github.com/eekilinc/Ocr-Capture">🤖 <b>Ocr-Capture</b></a></h4>
 
-<p>Modern software engineering project.</p>
+<p>⚡ Ekranınızdan ışık hızında, çevrimdışı ve akıllı metin ayıklama aracı. Tauri v2, Rust ve Tesseract OCR ile güçl...</p>
 
-<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>JavaScript</code></p>
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>Python</code></p>
 
 <p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
 
