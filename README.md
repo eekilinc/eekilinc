@@ -149,7 +149,7 @@
 
 <p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
+<p>⭐ <b>1</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -167,9 +167,9 @@
 <tr>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/eekilinc/Postaci">📮 <b>Postaci</b></a></h4>
+<h4><a href="https://github.com/eekilinc/Postaci">🤖 <b>Postaci</b></a></h4>
 
-<p>📮 Fast & lightweight API request tester and HTTP client utility built with TypeScript.</p>
+<p>⚡ Yıldırım hızında, güvenli ve modern masaüstü e-posta istemcisi (Fast, secure and modern desktop email client).</p>
 
 <p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>HTML</code></p>
 
