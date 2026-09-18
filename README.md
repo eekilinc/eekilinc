@@ -114,7 +114,82 @@
 ### 📂 `$ ./showcase --featured-repositories`
 
 <!-- REPOSITORIES:START -->
-<p>No repositories found.</p>
+<table>
+<tbody>
+<tr>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/Indirgitsin">📥 <b>Indirgitsin</b></a></h4>
+
+<p>Kotlin ve Jetpack Compose ile Android video/ses indirme yöneticisi. Paralel aktarım, sesli video birleştirme ve ...</p>
+
+<p><code>C</code> · <code>Kotlin</code> · <code>Python</code> · <code>Shell</code></p>
+
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Indirgitsin"><b>Explore Code →</b></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/MyFinans">💰 <b>MyFinans</b></a></h4>
+
+<p>💰 React + Capacitor mobil/web arayüzü ve Node.js backend ile kişisel finans takibi</p>
+
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>Java</code></p>
+
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/MyFinans"><b>Explore Code →</b></a></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/EzanApp">🕌 <b>EzanApp</b></a></h4>
+
+<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
+
+<p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
+
+<p>⭐ <b>1</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/Ocr-Capture">🤖 <b>Ocr-Capture</b></a></h4>
+
+<p>⚡ Ekranınızdan ışık hızında, çevrimdışı ve akıllı metin ayıklama aracı. Tauri v2, Rust ve Tesseract OCR ile güçl...</p>
+
+<p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>Python</code></p>
+
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/Postaci">🤖 <b>Postaci</b></a></h4>
+
+<p>⚡ Yıldırım hızında, güvenli ve modern masaüstü e-posta istemcisi (Fast, secure and modern desktop email client).</p>
+
+<p><code>TypeScript</code> · <code>JavaScript</code> · <code>HTML</code> · <code>CSS</code></p>
+
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/eekilinc/eekilinc.github.io">📱 <b>eekilinc.github.io</b></a></h4>
+
+<p>👨‍💻 Ekrem Eşref KILINÇ — Kişisel Portfolyo | Flutter · Web · Masaüstü Geliştirici</p>
+
+<p><code>HTML</code></p>
+
+<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
+
+</td>
+</tr>
+</tbody>
+</table>
 <!-- REPOSITORIES:END -->
 
 ---
