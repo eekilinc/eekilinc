@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://eekilinc.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=45&lines=echo+%22Software+Engineer+%7C+Mobile+Architect%22;echo+%22Computer+Vision+%26+Edge+AI+Researcher%22;echo+%22Robotics+%26+Embedded+Systems+Builder%22;echo+%22Crafting+intelligent+code+that+thinks.%22" alt="Terminal Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=45&lines=echo+%22Software+Engineer+%7C+Mobile+Architect%22;echo+%22Computer+Vision+%26+Edge+AI+Researcher%22;echo+%22Robotics+%26+Embedded+Systems+Builder%22;echo+%22Crafting+intelligent+code+that+thinks.%22" alt="Terminal Typing Animation" width="620" height="45" loading="lazy" />
   </a>
 </p>
 
@@ -125,7 +125,7 @@
 
 <p><code>C</code> · <code>Kotlin</code> · <code>Python</code> · <code>Shell</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Indirgitsin"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-14</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Indirgitsin"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -136,7 +136,7 @@
 
 <p><code>TypeScript</code> · <code>JavaScript</code> · <code>CSS</code> · <code>Java</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/MyFinans"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-03</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/MyFinans"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
@@ -145,11 +145,11 @@
 
 <h4><a href="https://github.com/eekilinc/EzanApp">🕌 <b>EzanApp</b></a></h4>
 
-<p>🕌 Islamic prayer times & customizable reminder app built with Flutter</p>
+<p>🕌 Islamic prayer times &amp; customizable reminder app built with Flutter</p>
 
 <p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
-<p>⭐ <b>1</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
+<p>⭐ <b>1</b> &nbsp; · &nbsp; 🕒 <b>2026-09-16</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -160,20 +160,20 @@
 
 <p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>Python</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-16</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/eekilinc/Postaci">🤖 <b>Postaci</b></a></h4>
+<h4><a href="https://github.com/eekilinc/Postaci">📮 <b>Postaci</b></a></h4>
 
 <p>⚡ Yıldırım hızında, güvenli ve modern masaüstü e-posta istemcisi (Fast, secure and modern desktop email client).</p>
 
 <p><code>TypeScript</code> · <code>JavaScript</code> · <code>HTML</code> · <code>CSS</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-18</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -184,7 +184,7 @@
 
 <p><code>HTML</code></p>
 
-<p>⭐ <b>0</b> &nbsp; · &nbsp; 🍴 <b>0</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-19</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
@@ -199,18 +199,19 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats.svg" />
-    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats-light.svg" alt="Ekrem's GitHub Stats" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/stats-light.svg" alt="Ekrem's GitHub Stats" width="480" height="175" loading="lazy" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages.svg" />
-    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages-light.svg" alt="Most Used Languages" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/languages-light.svg" alt="Most Used Languages" width="480" height="205" loading="lazy" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/eekilinc">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=eekilinc&theme=tokyonight&hide_border=false&border_radius=10&background=090D16&border=334155&fire=38BDF8&ring=A855F7&currStreakNum=38BDF8&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B" alt="GitHub Streak Stats" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/streak.svg" />
+    <img src="https://raw.githubusercontent.com/eekilinc/eekilinc/main/assets/streak-light.svg" alt="GitHub Streak Stats" width="480" height="175" loading="lazy" />
+  </picture>
 </p>
 
 <p align="center">

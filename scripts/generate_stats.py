@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import time
 import urllib.request
 from datetime import datetime
 
@@ -45,10 +46,38 @@ def set_theme(name):
         globals()[k] = v
 
 
-def http_json(url, headers=None, data=None):
-    req = urllib.request.Request(url, headers=headers or {}, data=data)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def log(msg):
+    print(msg, file=sys.stderr, flush=True)
+
+
+def http_json(url, headers=None, data=None, retries=3):
+    last_err = None
+    for attempt in range(1, retries + 1):
+        req = urllib.request.Request(url, headers=headers or {}, data=data)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            last_err = e
+            try:
+                body = e.read().decode("utf-8", errors="replace")[:300]
+            except Exception:
+                body = ""
+            log(f"warning: {url} attempt {attempt}/{retries} HTTP {e.code}: {body}")
+            retry_after = e.headers.get("Retry-After") if e.headers else None
+            if e.code in (429, 500, 502, 503, 504) and attempt < retries:
+                wait = int(retry_after) if retry_after and str(retry_after).isdigit() else 2 ** attempt
+                time.sleep(min(wait, 30))
+                continue
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+            log(f"warning: {url} attempt {attempt}/{retries} network error: {e}")
+            if attempt < retries:
+                time.sleep(2 ** attempt)
+                continue
+            raise
+    raise RuntimeError(f"{url} failed after {retries} attempts: {last_err}")
 
 
 def gh_rest(path):
@@ -107,8 +136,10 @@ def get_search_total(query):
     try:
         import urllib.parse
         q = urllib.parse.quote(query)
-        return gh_rest(f"/search/issues?q={q}&per_page=1").get("total_count", 0)
-    except Exception:
+        data = http_json(f"{API}/search/issues?q={q}&per_page=1", headers=headers, retries=2)
+        return data.get("total_count", 0)
+    except Exception as e:
+        log(f"warning: search total failed for {query!r}: {e}")
         return None
 
 
@@ -140,6 +171,7 @@ def collect_stats():
     lang_bytes = {}
     for r in repos:
         try:
+            time.sleep(0.3)
             langs = gh_rest(f"/repos/{USERNAME}/{r['name']}/languages")
             for k, v in langs.items():
                 lang_bytes[k] = lang_bytes.get(k, 0) + v
@@ -152,14 +184,14 @@ def collect_stats():
     commits = None
     try:
         commits = gh_rest(f"/search/commits?q=author:{USERNAME}&per_page=1").get("total_count", 0)
-    except Exception:
-        pass
+    except Exception as e:
+        log(f"warning: commit search failed: {e}")
 
     total_contrib, weeks = None, None
     try:
         total_contrib, weeks = get_calendar()
-    except Exception:
-        pass
+    except Exception as e:
+        log(f"warning: contribution calendar unavailable (needs GITHUB_TOKEN): {e}")
 
     return {
         "profile": profile,
@@ -280,19 +312,74 @@ def svg_contributions(s):
 '''
 
 
+def compute_streak(weeks):
+    """Return (current_streak, longest_streak) in days from calendar weeks."""
+    if not weeks:
+        return 0, 0
+    days = [d for w in weeks for d in w]
+    longest = 0
+    run = 0
+    for d in days:
+        if d.get("contributionCount", 0) > 0:
+            run += 1
+            longest = max(longest, run)
+        else:
+            run = 0
+    # Current streak: trailing active run (allow today being empty if yesterday active)
+    current = 0
+    for d in reversed(days):
+        if d.get("contributionCount", 0) > 0:
+            current += 1
+        else:
+            # If the very last day (today) is empty, skip it once
+            if current == 0 and d is days[-1]:
+                continue
+            break
+    return current, longest
+
+
+def svg_streak(s, current, longest):
+    total = s.get("total_contrib") or 0
+    cells = [
+        ("🔥", "Current Streak", f"{current} days"),
+        ("🏆", "Longest Streak", f"{longest} days"),
+        ("📊", "Total Contributions", fmt(total) if isinstance(total, int) else str(total)),
+    ]
+    y0 = 62
+    parts = []
+    for i, (icon, label, value) in enumerate(cells):
+        y = y0 + i * 38
+        parts.append(
+            f'<text x="46" y="{y}" font-family={FONT!r} font-size="15" fill="{MUTED}">{esc(icon)} {esc(label)}</text>'
+            f'<text x="434" y="{y}" font-family={FONT!r} font-size="15" font-weight="bold" fill="{ACCENT}" text-anchor="end">{esc(str(value))}</text>'
+        )
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="480" height="175" viewBox="0 0 480 175">
+  <rect x="1" y="1" width="478" height="173" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
+  <text x="30" y="36" font-family={FONT!r} font-size="17" font-weight="bold" fill="{ACCENT}">GitHub Streak</text>
+  {''.join(parts)}
+</svg>
+'''
+
+
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    s = collect_stats()
+    try:
+        s = collect_stats()
+    except Exception as e:
+        log(f"error: collect_stats failed: {e}")
+        raise SystemExit(1)
+    current, longest = compute_streak(s.get("weeks"))
     for theme, suffix in (("dark", ""), ("light", "-light")):
         set_theme(theme)
         outputs = {
             f"stats{suffix}.svg": svg_stats(s),
             f"languages{suffix}.svg": svg_langs(s),
+            f"streak{suffix}.svg": svg_streak(s, current, longest),
         }
         if s["weeks"]:
             outputs[f"contributions{suffix}.svg"] = svg_contributions(s)
         else:
-            print(f"info: skipping contributions{suffix}.svg (requires GITHUB_TOKEN for GraphQL)")
+            log(f"info: skipping contributions{suffix}.svg (requires GITHUB_TOKEN for GraphQL)")
         for name, content in outputs.items():
             path = os.path.join(OUTPUT_DIR, name)
             with open(path, "w", encoding="utf-8") as f:

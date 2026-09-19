@@ -6,10 +6,15 @@ on:
 
   workflow_dispatch:
 
+concurrency:
+  group: profile-update
+  cancel-in-progress: true
+
 jobs:
   update-readme:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     permissions:
       contents: write
@@ -24,13 +29,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: |
-          pip install requests
-
       - name: Update README repositories section
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_readme.py
 
@@ -41,6 +43,14 @@ jobs:
           OUTPUT_DIR: assets
         run: |
           python scripts/generate_stats.py
+
+      - name: Smoke test generated assets
+        run: |
+          python -m py_compile scripts/update_readme.py scripts/generate_stats.py
+          python -c "import glob, xml.dom.minidom; [xml.dom.minidom.parse(f) for f in glob.glob('assets/*.svg')]; print('SVG validation OK')"
+          test -f assets/stats.svg
+          test -f assets/languages.svg
+          test -f assets/streak.svg
 
       - name: Commit changes
         run: |
