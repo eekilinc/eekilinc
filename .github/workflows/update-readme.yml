@@ -53,6 +53,11 @@ jobs:
           test -f assets/streak.svg
 
       - name: Commit changes
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME_GH: ${{ github.repository_owner }}
+          OUTPUT_DIR: assets
         run: |
 
           git config user.name "github-actions[bot]"
@@ -67,4 +72,31 @@ jobs:
 
           git commit -m "chore: update profile stats"
 
-          git push
+          # Push with rebase+retry: the API calls above take minutes, so
+          # origin/main may have moved meanwhile (manual push or another run).
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Pushed on attempt $attempt."
+                exit 0
+              fi
+              echo "Push rejected, retrying..."
+            else
+              echo "Rebase conflict, regenerating on fresh base..."
+              git rebase --abort
+              git reset --hard origin/main
+              python scripts/update_readme.py
+              python scripts/generate_stats.py
+              git add README.md assets
+              if git diff --cached --quiet; then
+                echo "No changes after regenerate."
+                exit 0
+              fi
+              git commit -m "chore: update profile stats"
+            fi
+            sleep 10
+          done
+
+          echo "error: push failed after 3 attempts"
+          exit 1
