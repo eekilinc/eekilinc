@@ -1,0 +1,19 @@
+{
+  "spec": "optik-form/v1",
+  "page": { "size": "A4", "dpi": 300, "margin_mm": 10 },
+  "anchors": {
+    "type": "corner-squares",
+    "size_norm": 0.055,
+    "positions": { "tl": [0.05, 0.05], "tr": [0.95, 0.05], "bl": [0.05, 0.95], "br": [0.95, 0.95] }
+  },
+  "qr": { "zone_norm": [0.32, 0.045, 0.68, 0.115], "payload_format": "OPTIK1:{exam_id}:{form_version}:{booklet}:{checksum4}" },
+  "defaults": { "question_count": 40, "option_count": 5, "options": ["A", "B", "C", "D", "E"] },
+  "student_no": { "label": "Öğrenci No", "digits": 8, "zone_norm": [0.04, 0.11, 0.96, 0.24] },
+  "booklet": { "label": "Kitapçık", "choices": ["A", "B", "C", "D"], "zone_norm": [0.04, 0.22, 0.96, 0.28], "single_mark": true },
+  "questions": {
+    "zone_norm": [0.04, 0.29, 0.96, 0.96],
+    "layout": { "columns": 2, "rows_per_column": 20, "option_count_from": "exam.option_count" },
+    "mark": { "shape": "circle", "fill_threshold": 0.15, "multi_mark": "review", "empty": "blank" }
+  },
+  "rules": { "booklet_required": true, "student_no_required": true, "login_required_to_scan": true, "multi_mark_policy": "review_not_wrong", "versioning": "qr.form_version ile form_templates.spec eşleşmeli, eski versiyon 410 değil review'e düşer" }
+}
