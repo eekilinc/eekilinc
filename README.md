@@ -149,7 +149,7 @@
 
 <p><code>Dart</code> · <code>C++</code> · <code>CMake</code> · <code>Swift</code></p>
 
-<p>⭐ <b>1</b> &nbsp; · &nbsp; 🕒 <b>2026-09-16</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
+<p>⭐ <b>1</b> &nbsp; · &nbsp; 🍴 <b>1</b> &nbsp; · &nbsp; 🕒 <b>2026-09-16</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/EzanApp"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -173,7 +173,7 @@
 
 <p><code>TypeScript</code> · <code>JavaScript</code> · <code>HTML</code> · <code>CSS</code></p>
 
-<p>🕒 <b>2026-09-23</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-24</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Postaci"><b>Explore Code →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
@@ -184,7 +184,7 @@
 
 <p><code>HTML</code></p>
 
-<p>🕒 <b>2026-09-23</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-09-24</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
