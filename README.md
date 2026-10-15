@@ -160,7 +160,7 @@
 
 <p><code>TypeScript</code> · <code>CSS</code> · <code>Rust</code> · <code>Python</code></p>
 
-<p>🕒 <b>2026-09-16</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-10-14</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/Ocr-Capture"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
@@ -184,7 +184,7 @@
 
 <p><code>HTML</code></p>
 
-<p>🕒 <b>2026-10-14</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-10-15</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
