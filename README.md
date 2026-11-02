@@ -184,7 +184,7 @@
 
 <p><code>HTML</code></p>
 
-<p>🕒 <b>2026-11-01</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
+<p>🕒 <b>2026-11-02</b> &nbsp; · &nbsp; <a href="https://github.com/eekilinc/eekilinc.github.io"><b>Explore Code →</b></a></p>
 
 </td>
 </tr>
